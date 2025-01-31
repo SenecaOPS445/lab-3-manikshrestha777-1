@@ -4,14 +4,13 @@
 
 def operate(number1, number2, operator):
     if operator == 'add':
-        print(int(number1) + int(number2))
+        return int(number1) + int(number2)
     elif operator == 'subtract':
-        print(int(number1) - int(number2))
+        return int(number1) - int(number2)
     elif operator == 'multiply':
-        print(int(number1) * int(number2))
-    elif operator == 'divide':
-        print(int(number1) / int(number2))
-    return 'Error: function operator can be "add", "subtract", "multiply" or "divide" '
+        return int(number1) * int(number2)
+    else:
+        return 'Error: function operator can be "add", "subtract", or "multiply"'
 
 if __name__ == '__main__':
     print(operate(10, 5, 'add'))
