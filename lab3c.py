@@ -17,3 +17,4 @@ if __name__ == '__main__':
     print(operate(10, 5, 'subtract'))
     print(operate(10, 5, 'multiply'))
     print(operate(10, 5, 'divide'))
+    
